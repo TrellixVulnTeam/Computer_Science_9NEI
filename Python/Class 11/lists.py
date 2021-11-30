@@ -85,3 +85,26 @@
 
 
 
+
+# list1 = [1,2,3,4,65,5,67,7]
+# 
+# print(3 in list1)
+# 
+
+# print(3 not in list1)
+
+
+
+# list1 = [1,2,3,4,5]
+
+# print(list1[3])
+
+list1 = [1,2,3,4,5]
+
+# print(list1[:])
+
+# print(list1[0:2]) 
+
+
+
+
