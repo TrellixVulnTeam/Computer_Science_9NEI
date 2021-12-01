@@ -29,6 +29,7 @@
 # list2 = list1
 
 # list2[0]=10
+# list2[0]=10
 # print(list1)
 # print(list2)
 
@@ -38,7 +39,6 @@
 # [10, 2, 3, 4, 5]
 
 # '''
-
 # list1 = [1,2]
 # list2 =[3,4]
 
@@ -99,11 +99,12 @@
 
 # print(list1[3])
 
-list1 = [1,2,3,4,5]
+# list1 = [1,2,3,4,5]
 
 # print(list1[:])
 
 # print(list1[0:2]) 
+
 
 
 
