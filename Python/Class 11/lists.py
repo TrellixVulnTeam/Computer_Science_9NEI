@@ -115,11 +115,9 @@
 
 '''Add an element to the list only if the element is an odd number'''
 
-a = int(input("What is your number:-  "))
+number_of_numbers = int(input("How many numbers do you want to add")
 
-list1 = []
 
-if a%2!=0:
-    list1.append(a)
+for i in range(number_of_numbers):
+    
 
-print(list1)
