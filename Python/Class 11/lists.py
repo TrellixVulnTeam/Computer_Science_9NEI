@@ -105,6 +105,21 @@
 
 # print(list1[0:2]) 
 
+'''Add an Element at the end of the list with append method'''
+# list1 = ['a','b','c','d','e']
+
+# list1.append('f')
+
+# print(list1)
 
 
+'''Add an element to the list only if the element is an odd number'''
 
+a = int(input("What is your number:-  "))
+
+list1 = []
+
+if a%2!=0:
+    list1.append(a)
+
+print(list1)
