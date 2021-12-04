@@ -5,7 +5,7 @@ import cv2
 
 KNOWN_FACES_DIR = "faces"
 UNKNOWN_FACES_DIR = "unknown_faces"
-TOLERANCE = 0.6
+TOLERANCE = 0.4
 FRAME_THICKNESS = 3
 FONT_THICKNESS = 2
 MODEL = 'hog'  # default: 'hog', other one can be 'cnn' - CUDA accelerated (if available) deep-learning pretrained model
