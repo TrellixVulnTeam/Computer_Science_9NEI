@@ -3,8 +3,8 @@ import os
 import cv2
 
 
-KNOWN_FACES_DIR = 'known_faces'
-UNKNOWN_FACES_DIR = 'unknown_faces'
+KNOWN_FACES_DIR = "Faces"
+UNKNOWN_FACES_DIR = "unknown_faces"
 TOLERANCE = 0.6
 FRAME_THICKNESS = 3
 FONT_THICKNESS = 2
@@ -23,7 +23,7 @@ print('Loading known faces...')
 known_faces = []
 known_names = []
 
-# We oranize known faces as subfolders of KNOWN_FACES_DIR
+# We organize known faces as subfolders of KNOWN_FACES_DIR
 # Each subfolder's name becomes our label (name)
 for name in os.listdir(KNOWN_FACES_DIR):
 
