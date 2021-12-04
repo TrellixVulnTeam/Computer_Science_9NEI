@@ -3,7 +3,7 @@ import os
 import cv2
 
 
-KNOWN_FACES_DIR = "Faces"
+KNOWN_FACES_DIR = "faces"
 UNKNOWN_FACES_DIR = "unknown_faces"
 TOLERANCE = 0.6
 FRAME_THICKNESS = 3
