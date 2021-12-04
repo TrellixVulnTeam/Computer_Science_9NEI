@@ -113,7 +113,7 @@
 # print(list1)
 
 
-# '''Add an element to the list only if the element is an odd number'''
+'''Add an element to the list only if the element is an odd number'''
 # a = []
 # number_of_numbers = int(input("How many numbers do you want to add"))
 
@@ -123,5 +123,37 @@
 #     if element1%2!=0:
 #         a.append(element1)
 # print(a)
+'''OR'''
+
+# a=[]
+# i=0
+# numberofnumbers = int(input("How many numbers to add?  "))
+
+# while i<numberofnumbers:
+#     add = int(input("What do you want to add?"))
+#     if add%2!=0:
+#         a.append(add)
+#     i+=1
+# print(a)
+
+
+# list1 = [1,2,3,4,5]
+# list2 = [12,344,54,3452]
+
+# for i in list2:
+#     list1.insert(0,i)
+# print(list1)
+
+# 
+# list1=['k','r','o','f']
+# 
+# list1.reverse()
+# print(list1)
+
+# list1 = [1,2,3,4,5,6]
+# print(list1.index(7))
+ 
+
+
 
 
