@@ -53,7 +53,7 @@ for filename in os.listdir(UNKNOWN_FACES_DIR):
     # This time we first grab face locations - we'll need them to draw boxes
     locations = face_recognition.face_locations(image, model=MODEL)
 
-    # Now since we know loctions, we can pass them to face_encodings as second argument
+    # Now since we know locations, we can pass them to face_encodings as second argument
     # Without that it will search for faces once again slowing down whole process
     encodings = face_recognition.face_encodings(image, locations)
 
@@ -61,7 +61,7 @@ for filename in os.listdir(UNKNOWN_FACES_DIR):
     # First we need to convert it from RGB to BGR as we are going to work with cv2
     image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
 
-    # But this time we assume that there might be more faces in an image - we can find faces of dirrerent people
+    # But this time we assume that there might be more faces in an image - we can find faces of different people
     print(f', found {len(encodings)} face(s)')
     for face_encoding, face_location in zip(encodings, locations):
 
@@ -86,7 +86,7 @@ for filename in os.listdir(UNKNOWN_FACES_DIR):
             # Paint frame
             cv2.rectangle(image, top_left, bottom_right, color, FRAME_THICKNESS)
 
-            # Now we need smaller, filled grame below for a name
+            # Now we need smaller, filled frame below for a name
             # This time we use bottom in both corners - to start from bottom and move 50 pixels down
             top_left = (face_location[3], face_location[2])
             bottom_right = (face_location[1], face_location[2] + 22)
