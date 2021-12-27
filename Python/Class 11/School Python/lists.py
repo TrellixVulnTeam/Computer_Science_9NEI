@@ -156,4 +156,17 @@
 
 
 
+# list1 = [1,2,3,4,5,6,5,5,5,5,5,5,5,5,5,5,5,5]
+# flag=0
+
+# for i in list1:
+#     if i==5:
+#         flag+=1
+
+# print(flag)
+
+# print(list1.count(5))
+
+
+
 
