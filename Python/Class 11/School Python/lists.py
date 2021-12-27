@@ -169,4 +169,39 @@
 
 
 
+# list1=[1,1,1234,3,254,34,5312,456,32456,2346,2354,6,23]
+# flag=0
+# for i in list1:
+#     flag+=1
+
+# print(flag)
+
+# print(len(list1))
+
+# list1 = [1,4,3,5,2,65,6,2345,67893450]
+# list1.sort()
+# print(list1)
+
+
+'''Error in bottom code Strings not allowed'''
+
+# list1 = [1,4,3,5,2,65,6,2345,67893450,"7"]
+# list1.sort()
+# print(list1)
+
+
+'''Sort and Sorted are 2 Different functions'''
+
+
+list1=[1,4,2,5,7,9,5]
+
+list1.sort(reverse=True)
+print(list1)
+
+
+list2=[1,4,2,5,7,9,5]
+
+
+print(sorted(list2))
+
 
