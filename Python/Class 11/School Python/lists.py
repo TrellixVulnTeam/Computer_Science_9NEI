@@ -204,4 +204,6 @@ list2=[1,4,2,5,7,9,5]
 
 print(sorted(list2))
 
-
+list3=[1,4,2,56,6,7,5]
+list3.clear()
+print(list3)
