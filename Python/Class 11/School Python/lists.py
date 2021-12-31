@@ -193,17 +193,24 @@
 '''Sort and Sorted are 2 Different functions'''
 
 
-list1=[1,4,2,5,7,9,5]
+# list1=[1,4,2,5,7,9,5]
 
-list1.sort(reverse=True)
-print(list1)
-
-
-list2=[1,4,2,5,7,9,5]
+# list1.sort(reverse=True)
+# print(list1)
 
 
-print(sorted(list2))
+# list2=[1,4,2,5,7,9,5]
 
-list3=[1,4,2,56,6,7,5]
-list3.clear()
-print(list3)
+
+# print(sorted(list2))
+
+# list3=[1,4,2,56,6,7,5]
+# list3.clear()
+# print(list3)
+
+'''pop'''
+
+
+
+
+
