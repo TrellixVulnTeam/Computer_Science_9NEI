@@ -216,10 +216,12 @@
 # for i in range(0,int((len(list1))/2 +1)):
 #     print(list1.pop(i))
 
+# list1= [1,2,3,4,5,6]
+# print(list1.pop(2))
+# print(list1)
+
 list1= [1,2,3,4,5,6]
-print(list1.pop(2))
-print(list1)
 
-
-
+list1.pop()
+'''no index in pop means last value is removed'''
 
