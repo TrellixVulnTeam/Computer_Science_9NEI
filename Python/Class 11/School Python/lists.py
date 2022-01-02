@@ -210,6 +210,15 @@
 
 '''pop'''
 
+# list1= [1,2,4,5,6,7,8,9,6]
+
+
+# for i in range(0,int((len(list1))/2 +1)):
+#     print(list1.pop(i))
+
+list1= [1,2,3,4,5,6]
+print(list1.pop(2))
+print(list1)
 
 
 
