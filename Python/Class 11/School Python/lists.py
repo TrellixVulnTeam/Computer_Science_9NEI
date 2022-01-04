@@ -204,16 +204,7 @@
 
 # print(sorted(list2))
 
-# list3=[1,4,2,56,6,7,5]
-# list3.clear()
-# print(list3)
-
-'''pop'''
-
-# list1= [1,2,4,5,6,7,8,9,6]
-
-
-# for i in range(0,int((len(list1))/2 +1)):
+# list3=[1,4,2,56,6,7,5] +1)):
 #     print(list1.pop(i))
 
 # list1= [1,2,3,4,5,6]
@@ -223,9 +214,64 @@
 # list1= [1,2,3,4,5,6]
 
 # a=list1.pop()
-# '''no index in pop means last value is removed'''
+
+# list1= [1,2,3,4,5,6]
+
+# a=list1.pop() +1)):
+#     print(list1.pop(i))
+
+# list1= [1,2,3,4,5,6] +1)):
+#     print(list1.pop(i))
+
+# list1= [1,2,3,4,5,6]
+# print(list1.pop(2))
+# print(list1)
+
+# list1= [1,2,3,4,5,6]
+
+# a=list1.pop()
+
+
+# list1= [1,2,3,4,5,6]
+
+
+# del list1[3]
+
+# print(list1)
+
+# a=list1.remove(5)
+# '''<list>.remove(element)'''
+# print(a,list1)
+
+
+# list1= [1,2,3,4,5,6]
+
+# list1.remove(3450978)
+
+
+# list1= [1,2,3,4,5,6]
+
+# print(list1.index(5))
+
+
+# list1= [1.435,412345.5413,1]
+
+# list2 = ["sadfg",1234,65,236,546,4,6724,7,426,7,462,'23456shfg']
+
+# a=max(list1)
+
+# # b=max(list2)
+
 # print(a)
 
 
+list1 = [100,-100,101,-101,102,-102,103,-103]
+
+for i in list1:
+    if i>0:
+        list1.remove(i)
+    elif i%2==0:
+        list1.remove(i)
+print(list1)
 
 
