@@ -280,7 +280,13 @@
 #         i-=1
 #     i+=1
 #
-# print(list1)
+# print(list1)# values = [[5,1,6],[9,1,4]]
+# for row in values:
+#     row.sort()
+#     for element in row:
+#         print(element,end=" ")
+#     print()
+
 
 # list1 = eval(input('Enter a list of NUMBERS'))
 # num = int(input("Enter number for finding index"))
@@ -301,6 +307,45 @@
 # print(list_str[2])
 #
 # print(type(list1), type(list_str))
+
+# x= [1,2,3,4,5]
+# print(x[3:]+x[:2])
+#
+
+# values = [[5,1,6],[9,1,4]]
+# for row in values:
+#     row.sort()
+#     for element in row:
+#         print(element,end=" ")
+#     print()
+
+
+# l = [1,3,4,40,48,4967,66,4333,5,555335]
+#
+# i = l.index(5)
+# l[i]=100
+# print(l)
+
+# list1 = ['abc','cdc','121','xyz']
+# count = 0
+#
+# for i in list1:
+#     a=len(i)
+#     if a>1 and i[0]==i[-1]:
+#         count+=1
+# print(count)
+
+# sample_list = ["Rinku", "AUSHIM", "VIJAYA", "AKHTAR", "AMAR", "LEENA",'aSHIF']
+#
+# for i in sample_list:
+#     if i[0]=='a' or i[0]=="A":
+#         print(i)
+
+# t = tuple()
+# print(t)
+#
+#
+
 
 
 
