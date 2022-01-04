@@ -265,13 +265,43 @@
 # print(a)
 
 
-list1 = [100,-100,101,-101,102,-102,103,-103]
+# list1 = [100,-100,101,-101,102,-102,103,-103]
+#
+# length = len(list1)
+# i=0
+# while i<length:
+#     if list1[i]>0:
+#         del list1[i]
+#         length-=1
+#         i-=1
+#     elif list1[i]%2==0:
+#         del list1[i]
+#         length-=1
+#         i-=1
+#     i+=1
+#
+# print(list1)
 
-for i in list1:
-    if i>0:
-        list1.remove(i)
-    elif i%2==0:
-        list1.remove(i)
-print(list1)
+# list1 = eval(input('Enter a list of NUMBERS'))
+# num = int(input("Enter number for finding index"))
+# length = len(list1)
+#
+# for i in range(0,length):
+#     if num == list1[i]:
+#         print(i)
+#         break
+# else:
+#     print("Value not found")
+#
+#
+# list_str = "[1,3,5,6,7,8,9,9,456,43,54,57,5]"
+#
+# list1 = eval(list_str)
+# print(list1[2])
+# print(list_str[2])
+#
+# print(type(list1), type(list_str))
+
+
 
 
