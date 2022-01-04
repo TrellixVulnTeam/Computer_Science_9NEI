@@ -220,8 +220,12 @@
 # print(list1.pop(2))
 # print(list1)
 
-list1= [1,2,3,4,5,6]
+# list1= [1,2,3,4,5,6]
 
-list1.pop()
-'''no index in pop means last value is removed'''
+# a=list1.pop()
+# '''no index in pop means last value is removed'''
+# print(a)
+
+
+
 
