@@ -340,11 +340,30 @@
 # for i in sample_list:
 #     if i[0]=='a' or i[0]=="A":
 #         print(i)
+#
+# t = (1,2,)
+# print(t,type(t))
+#
+#
 
 # t = tuple()
+# value = eval(input('Enter your number of values:'))
+#
+# i=1
+# while i<=value:
+#     val = input("enter your value")
+#     t = t +(val,)
+#     i+=1
 # print(t)
 #
 #
+# t1= (1,2,3,4,5)
+# t2 =(1,2,3,4,5)
+# t3=t1+t2
+# print(t1+t2)
+#
+
+
 
 
 
