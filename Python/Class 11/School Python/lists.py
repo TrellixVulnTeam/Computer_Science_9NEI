@@ -405,3 +405,9 @@ for i in range(0,n):
     t = t + (num,)
 print(t)
 '''
+
+# t=(1,2,3,4,5,6)
+# del t
+# print(t)
+
+
