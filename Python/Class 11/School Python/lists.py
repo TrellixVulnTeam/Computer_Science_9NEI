@@ -20,7 +20,7 @@
     # j+=i
     # print(list1[i])
 # print(j)
-# 
+#
 
 # '''Aliasing'''
 
@@ -87,9 +87,9 @@
 
 
 # list1 = [1,2,3,4,65,5,67,7]
-# 
+#
 # print(3 in list1)
-# 
+#
 
 # print(3 not in list1)
 
@@ -103,7 +103,7 @@
 
 # print(list1[:])
 
-# print(list1[0:2]) 
+# print(list1[0:2])
 
 '''Add an Element at the end of the list with append method'''
 # list1 = ['a','b','c','d','e']
@@ -144,15 +144,15 @@
 #     list1.insert(0,i)
 # print(list1)
 
-# 
+#
 # list1=['k','r','o','f']
-# 
+#
 # list1.reverse()
 # print(list1)
 
 # list1 = [1,2,3,4,5,6]
 # print(list1.index(7))
- 
+
 
 
 
@@ -368,3 +368,10 @@
 # t2=(123,14,1,4)
 # print(t1*t2)
 #
+#
+# tup = (1,2,3,4,5)
+# print(len(tup))
+
+# t =  (1,1,2,21,423,42,41,1,1,13,4,34141,1,1,1,1,1)
+# print(t.count(1))
+
