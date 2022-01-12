@@ -375,3 +375,33 @@
 # t =  (1,1,2,21,423,42,41,1,1,13,4,34141,1,1,1,1,1)
 # print(t.count(1))
 
+# t=(1,2,3,4,5,6)
+# print(any(t))
+# t=()
+# print(any(t))
+
+# t=(1,2,3,4,5,6)
+# print(max(t),min(t))
+
+# t=(1,2,3,4,5,6.0)
+# print(max(t))
+# t=('f', 'a')
+# print(sum(t))
+
+
+# t = eval(input("Please enter a tuple you would like to find the Sum Average Maximum Value and Minimum Value"))
+# sigma= sum(t)
+# n_terms = len(t)
+# maxi = max(t)
+# mini = min(t)
+# mean = sigma/n_terms
+# print(sigma,n_terms,maxi,mini,mean)
+'''
+t = tuple()
+n = int(input("Number of terms in tuple?:"))
+
+for i in range(0,n):
+    num = int(input("Enter you value:-"))
+    t = t + (num,)
+print(t)
+'''
