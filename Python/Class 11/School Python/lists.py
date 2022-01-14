@@ -410,4 +410,10 @@ print(t)
 # del t
 # print(t)
 
+# d1 = {'a':"Apple",'b':"Boy"}
+# print(d1)
+# d1["a"]="test"
+# print(d1)
+
+
 
